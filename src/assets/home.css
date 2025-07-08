@@ -1,0 +1,19 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  /* Ne pas forcer height:100% ou height:100vh sur <body>, sinon vous perdez le scroll */
+}
+
+body {
+  /* 1. URL de votre image */
+  background-image: url('../img/BackgroundSpace.png');
+  /* 2. Pas de répétition */
+  background-repeat: no-repeat;
+  /* 3. Position centrer horizontalement (et verticalement si besoin) */
+  background-position: center top;
+  /* 4. Fixe par rapport à la fenêtre, pas au contenu */
+  background-attachment: fixed;
+  /* 5. Couvre entièrement la zone visible */
+  background-size: cover;
+}
