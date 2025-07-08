@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
-    "tailwind": "^4.0.0"
+    "tailwind": "^4.0.0",
+    "tailwindcss-animated": "^2.0.0"
   }
 }
