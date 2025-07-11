@@ -1,0 +1,6 @@
+nav {
+  position: fixed;   /* fixe l’élément par rapport à la fenêtre */
+  top: 0;            /* en haut */
+  left: 0;           /* à gauche */
+  right: 0;
+}

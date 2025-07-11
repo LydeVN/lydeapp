@@ -4,16 +4,34 @@ html, body {
   padding: 0;
   /* Ne pas forcer height:100% ou height:100vh sur <body>, sinon vous perdez le scroll */
 }
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  /* 1. URL de votre image */
-  background-image: url('../img/BackgroundSpace.png');
-  /* 2. Pas de répétition */
-  background-repeat: no-repeat;
-  /* 3. Position centrer horizontalement (et verticalement si besoin) */
-  background-position: center top;
+  background: url('../img/BackgroundFinal.png') no-repeat center top fixed;
   /* 4. Fixe par rapport à la fenêtre, pas au contenu */
-  background-attachment: fixed;
-  /* 5. Couvre entièrement la zone visible */
   background-size: cover;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centre horizontalement tous les enfants */
+  padding: 16px;
+  margin-top: 5%;
+}
+
+.home-embed {
+  /* si vous voulez limiter la largeur du player */
+  width: 1000px;
+  border: 5px purple solid;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+text {
+  margin-top: 400px;
 }
