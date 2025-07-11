@@ -1,0 +1,28 @@
+.team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* centre horizontalement tous les enfants */
+  padding: 16px;
+  margin-top: 5%;
+
+}
+
+.team-embed {
+  /* si vous voulez limiter la largeur du player */
+  width: 1000px;
+  margin-bottom: 5%;
+  border-radius: 30px;
+  overflow: hidden;
+  border: 3px solid rgb(19, 116, 241);
+  /* transition appliquée dès le début, sur hover et sur unhover */
+  transition: border-color 0.5s ease-in-out;
+}
+
+.team-embed:hover {
+  border-color: rgb(255, 255, 255);
+}
+
+text {
+  margin-top: 400px;
+}
